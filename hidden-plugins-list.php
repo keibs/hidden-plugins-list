@@ -1,7 +1,7 @@
 function hide_plugin_trickspanda() {
   global $wp_list_table;
   $hidearr = array(
-    'duplicator-pro/duplicator-pro.php'
+    'duplicator-pro/duplicator-pro.php',
     'seedprod-coming-soon-pro-5/seedprod-coming-soon-pro-5.php'
   );
   $myplugins = $wp_list_table->items;
