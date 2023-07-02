@@ -13,3 +13,11 @@ function hide_plugin_trickspanda() {
 }
 
 add_action('pre_current_active_plugins', 'hide_plugin_trickspanda');
+
+function hide_plugins_side_bar() {
+  echo "<style type='text/css'>";
+  echo "#toplevel_page_duplicator-pro {display: none;}";
+  echo "<style type='text/css'>";
+}
+
+add_action('admin_print_scripts', 'hide_plugins_side_bar');
